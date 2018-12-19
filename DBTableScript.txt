@@ -1,0 +1,10 @@
+CREATE TABLE trading_calendar
+(id Bigserial PRIMARY KEY NOT NULL,
+  date character varying(100),
+  tradingdate character varying(100)
+);
+
+----------------------------
+INSERT INTO trading_calendar(id, date, tradingdate) VALUES (1, '25/12/2018', 'N');
+INSERT INTO trading_calendar(id, date, tradingdate) VALUES (2, '26/12/2018', 'N');
+INSERT INTO trading_calendar(id, date, tradingdate) VALUES (3, '01/01/2018', 'N');
